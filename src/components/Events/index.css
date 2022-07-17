@@ -1,0 +1,24 @@
+.bg-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.events-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3a4b63;
+  height: 100vh;
+  width: 60%;
+}
+.view-cont {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+.heading {
+  color: #f8fafc;
+  align-self: flex-start;
+  margin-left: 40px;
+}
